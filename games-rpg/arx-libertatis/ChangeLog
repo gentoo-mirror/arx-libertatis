@@ -1,0 +1,123 @@
+# ChangeLog for games-rpg/arx-libertatis
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  06 Jun 2014; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Added missing GLM dependency.
+
+  06 Jun 2014; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Updated static linking dependencies: FreeType and ZLIB can now be statically
+  linked.
+
+  06 Nov 2013; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Add support for media-libs/libsdl2.
+  Also import changes from main tree and update to git-r3.
+
+  30 Jun 2013; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Make use of new features and dependency changes in the upcoming 1.1 release
+
+  30 Jun 2013; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Import changes from in-tree ebuild
+
+  08 Mar 2013; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Add slot to media-libs/libsdl dependency
+
+  03 Mar 2013; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Move Qt dependencies to the new category
+
+  01 Aug 2012; Daniel Scharrer <dscharrer@gentoo.org>
+  -arx-libertatis-1.0.ebuild, -arx-libertatis-1.0.1.ebuild,
+  -arx-libertatis-1.0.2.ebuild:
+  Remove obsolete ebuilds so people will get the newer ones from the tree
+
+  01 Aug 2012; Daniel Scharrer <dscharrer@gentoo.org>
+  arx-libertatis-9999.ebuild:
+  Update the live ebuild with the changes from the latest non-live ebuild in
+  the tree
+
+*arx-libertatis-1.0.2 (14 Jun 2012)
+
+  14 Jun 2012; Daniel Scharrer <dscharrer@gentoo.org>
+  arx-libertatis-1.0.1.ebuild, +arx-libertatis-1.0.2.ebuild:
+  Bump version to 1.0.2
+
+  22 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-1.0.ebuild, arx-libertatis-1.0.1.ebuild:
+  Add amd64 and x86 keywords
+
+*arx-libertatis-1.0.1 (22 Apr 2012)
+
+  22 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-1.0.ebuild, +arx-libertatis-1.0.1.ebuild:
+  Bump version to 1.0.1
+  - Fixed garbled text rendering in the Russian version (upstream bug #226)
+  - Fixed a crash in the critical error dialog on some Tux.png Linux systems
+  (upstream crash report #229)
+  - Loading files from the 'graph' and 'misc' directories is now
+  case-insensitive
+
+  22 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-1.0.ebuild:
+  Add sourceforge mirror for version 1.0.
+
+  19 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-1.0.ebuild:
+  Keyword amd64 x86
+
+*arx-libertatis-1.0 (19 Apr 2012)
+
+  19 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  +arx-libertatis-1.0.ebuild, arx-libertatis-9999.ebuild:
+  Release version 1.0
+
+  05 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Add data and demo use flags.
+
+  03 Apr 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Don't install arxunpak, arxsavetool and arxcrashreporter under /usr/games.
+
+  28 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Install ARX_PUBLIC_LICENSE.txt.
+
+  28 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Fix man install dir and specify versions for more dependencies.
+
+  26 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Fix icon and desktop file location.
+
+  23 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Install the CHANGELOG file.
+
+  22 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Add a crash-reporter use flag.
+
+  01 Mar 2012; Daniel Scharrer <daniel@constexpr.org>
+  arx-libertatis-9999.ebuild:
+  Install the README.md and AUTHORS files.
+
+  25 Feb 2012; Daniel Scharrer <daniel@constex.org>
+  arx-libertatis-9999.ebuild, metadata.xml:
+  Update website URL and emails.
+
+  16 Jan 2012; Daniel Scharrer <daniel@constex.org>
+  arx-libertatis-9999.ebuild:
+  Remove dependency on virtual/glu.
+
+  07 Jan 2012; Daniel Scharrer <daniel@constex.org>
+  arx-libertatis-9999.ebuild:
+  Adjust the live ebuild to changed cmake option names.
+
