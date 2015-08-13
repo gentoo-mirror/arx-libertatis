@@ -1,6 +1,6 @@
 # This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
 # your descriptions to your package's metadata.xml ONLY.
-# * generated automatically using egencache *
+# * generated automatically using pmaint *
 
 app-arch/innoextract:debug - Enable debug logging and the --debug command-line option.
 app-arch/innoextract:lzma - Add support for extracting lzma-compressed installers using app-arch/xz-utils
