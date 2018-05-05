@@ -1,4 +1,4 @@
-DEFINED_PHASES=install pretend setup unpack
+DEFINED_PHASES=install nofetch pretend setup unpack
 DEPEND=gog? ( app-arch/innoextract ) cdinstall? ( || ( app-arch/cabextract app-arch/libarchive app-arch/p7zip ) app-arch/innoextract )
 DESCRIPTION=Arx Fatalis data files
 EAPI=5
