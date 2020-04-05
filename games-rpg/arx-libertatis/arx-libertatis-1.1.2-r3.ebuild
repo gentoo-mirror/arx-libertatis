@@ -14,7 +14,7 @@ SRC_URI="https://arx-libertatis.org/files/${P}.tar.xz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="+crash-reporter custom-optimization debug static tools +unity-build"
+IUSE="crash-reporter custom-optimization debug static tools +unity-build"
 
 COMMON_DEPEND="
 	media-libs/freetype
@@ -73,7 +73,7 @@ pkg_postinst() {
 	elog
 	elog "This package only installs the game binary."
 	elog "You need the demo or full game data. Also see:"
-	elog "http://wiki.arx-libertatis.org/Getting_the_game_data"
+	elog "https://wiki.arx-libertatis.org/Getting_the_game_data"
 	elog
 	elog "If you have already installed the game or use the STEAM version,"
 	elog "run \"/usr/bin/arx-install-data\""
