@@ -3,6 +3,7 @@ DEPEND=app-arch/cabextract app-arch/unzip
 DESCRIPTION=Arx Fatalis demo
 EAPI=7
 HOMEPAGE=https://www.arkane-studios.com/uk/arx.php
+INHERIT=desktop
 KEYWORDS=~amd64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=games-rpg/arx-libertatis
