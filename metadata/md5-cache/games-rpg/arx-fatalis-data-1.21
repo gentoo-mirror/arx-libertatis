@@ -1,0 +1,17 @@
+DEFINED_PHASES=install nofetch pretend setup unpack
+DEPEND=games-rpg/arx-libertatis gog? ( app-arch/innoextract[lzma] ) cdinstall? ( || ( app-arch/cabextract app-arch/libarchive app-arch/p7zip ) app-arch/innoextract[lzma] )
+DESCRIPTION=Arx Fatalis data files
+EAPI=7
+HOMEPAGE=https://web.archive.org/web/20180201053030/https://www.arkane-studios.com/uk/arx.php
+INHERIT=eutils cdrom check-reqs
+IUSE=gog cdinstall
+KEYWORDS=~amd64 ~x86
+LICENSE=cdinstall? ( all-rights-reserved ) gog? ( GOG-EULA )
+PROPERTIES=cdinstall? ( interactive )
+RDEPEND=games-rpg/arx-libertatis
+REQUIRED_USE=|| ( !cdinstall !gog )
+RESTRICT=binchecks mirror gog? ( fetch )
+SLOT=0
+SRC_URI=cdinstall? ( https://cdn.bethsoft.com/arxfatalis/patches/1.21/ArxFatalis_1.21_MULTILANG.exe ) gog? ( setup_arx_fatalis_2.0.0.7.exe )
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	portability	d1186f1e621de7b27ddcae82e6253259	cdrom	96bb9b81542ce6da0c28603f1b5a98b7	check-reqs	97b90bd8fb799993925e6b3a683184e5
+_md5_=dedd78848a3a29b88724879e1bb17e4d
