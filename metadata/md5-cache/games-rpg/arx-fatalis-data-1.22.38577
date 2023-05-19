@@ -1,0 +1,16 @@
+DEFINED_PHASES=install nofetch pretend setup unpack
+DEPEND=games-rpg/arx-libertatis gog? ( app-arch/innoextract[lzma] app-arch/libarchive )
+DESCRIPTION=Arx Fatalis data files
+EAPI=7
+HOMEPAGE=https://web.archive.org/web/20180201053030/https://www.arkane-studios.com/uk/arx.php
+INHERIT=check-reqs
+IUSE=gog french german italian russian spanish
+KEYWORDS=~amd64 ~x86
+LICENSE=gog? ( GOG-EULA )
+RDEPEND=games-rpg/arx-libertatis
+REQUIRED_USE=french? ( gog !german !italian !russian !spanish ) german? ( gog !french !italian !russian !spanish ) italian? ( gog !french !german !russian !spanish ) russian? ( gog !french !german !italian !spanish ) spanish? ( gog !french !german !italian !russian )
+RESTRICT=binchecks mirror gog? ( fetch )
+SLOT=0
+SRC_URI=gog? ( !french? ( !german? ( !italian? ( !russian? ( !spanish? ( setup_arx_fatalis_1.22_(38577).exe setup_arx_fatalis_1.22_(38577)-1.bin ) ) ) ) ) french? ( setup_arx_fatalis_1.22_(french)_(38577).exe setup_arx_fatalis_1.22_(french)_(38577)-1.bin ) german? ( setup_arx_fatalis_1.22_(german)_(38577).exe setup_arx_fatalis_1.22_(german)_(38577)-1.bin ) italian? ( setup_arx_fatalis_1.22_(italian)_(38577).exe setup_arx_fatalis_1.22_(italian)_(38577)-1.bin ) russian? ( setup_arx_fatalis_1.22_(russian)_(38577).exe setup_arx_fatalis_1.22_(russian)_(38577)-1.bin ) spanish? ( setup_arx_fatalis_1.22_(spanish)_(38577).exe setup_arx_fatalis_1.22_(spanish)_(38577)-1.bin ) )
+_eclasses_=check-reqs	a5f1e025c53d62f98bc24bd63d7d95e1
+_md5_=c90ba54155685df579787a15c1b46754
