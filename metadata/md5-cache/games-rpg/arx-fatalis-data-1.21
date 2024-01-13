@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( !cdinstall !gog )
 RESTRICT=binchecks mirror gog? ( fetch )
 SLOT=0
 SRC_URI=cdinstall? ( https://cdn.bethsoft.com/arxfatalis/patches/1.21/ArxFatalis_1.21_MULTILANG.exe ) gog? ( setup_arx_fatalis_2.0.0.7.exe )
-_eclasses_=portability	a74d533f258f1f435be71312558c12f9	cdrom	e2d6b737cd384c6064917aee0a82b6e1	check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc
+_eclasses_=portability	225656ad6c6594fe3b0187bdd50707fb	cdrom	e2d6b737cd384c6064917aee0a82b6e1	check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc
 _md5_=3954093b48a1d6f9593fcf843f63d553
