@@ -12,5 +12,5 @@ REQUIRED_USE=gog
 RESTRICT=binchecks mirror fetch
 SLOT=0
 SRC_URI=setup_arx_fatalis_1.21_(21994).exe
-_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc
+_eclasses_=check-reqs	f5db0b1ec36d0899adc2b41f8c447823
 _md5_=1dc02ecbc21c9e6371b0ce820d19ba93
