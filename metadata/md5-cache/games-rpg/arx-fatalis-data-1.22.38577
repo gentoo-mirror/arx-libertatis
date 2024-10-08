@@ -12,5 +12,5 @@ REQUIRED_USE=french? ( gog !german !italian !russian !spanish ) german? ( gog !f
 RESTRICT=binchecks mirror gog? ( fetch )
 SLOT=0
 SRC_URI=gog? ( !french? ( !german? ( !italian? ( !russian? ( !spanish? ( setup_arx_fatalis_1.22_(38577).exe setup_arx_fatalis_1.22_(38577)-1.bin ) ) ) ) ) french? ( setup_arx_fatalis_1.22_(french)_(38577).exe setup_arx_fatalis_1.22_(french)_(38577)-1.bin ) german? ( setup_arx_fatalis_1.22_(german)_(38577).exe setup_arx_fatalis_1.22_(german)_(38577)-1.bin ) italian? ( setup_arx_fatalis_1.22_(italian)_(38577).exe setup_arx_fatalis_1.22_(italian)_(38577)-1.bin ) russian? ( setup_arx_fatalis_1.22_(russian)_(38577).exe setup_arx_fatalis_1.22_(russian)_(38577)-1.bin ) spanish? ( setup_arx_fatalis_1.22_(spanish)_(38577).exe setup_arx_fatalis_1.22_(spanish)_(38577)-1.bin ) )
-_eclasses_=check-reqs	f5db0b1ec36d0899adc2b41f8c447823
+_eclasses_=check-reqs	2a9731073c152554078a9a8df8fc0f1b
 _md5_=c90ba54155685df579787a15c1b46754
