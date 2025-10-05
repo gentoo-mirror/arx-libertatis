@@ -1,4 +1,4 @@
-BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.28.5
 DEFINED_PHASES=compile configure install postinst postrm prepare test
 DEPEND=!sdl2? ( media-libs/libsdl[X?,video,opengl] ) sdl2? ( media-libs/libsdl2[X?,wayland?,video,opengl] ) media-libs/openal virtual/opengl media-libs/libepoxy[X?] wayland? ( media-libs/libepoxy ) crash-reporter? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 net-misc/curl[ssl] ) !static? ( media-libs/freetype sys-libs/zlib ) dev-libs/boost >=media-libs/glm-0.9.5.0 static? ( || ( media-libs/freetype[-png] media-libs/libpng[static-libs] ) || ( media-libs/freetype[-bzip2] app-arch/bzip2[static-libs] ) media-libs/freetype[static-libs] sys-libs/zlib[static-libs] ) test? ( dev-util/cppunit )
 DESCRIPTION=Cross-platform port of Arx Fatalis, a first-person role-playing game
@@ -13,5 +13,5 @@ REQUIRED_USE=wayland? ( sdl2 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://arx-libertatis.org/files/arx-libertatis-1.2.tar.xz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=185f308a6aa5d05cc7395dc8e5e4eaa4
